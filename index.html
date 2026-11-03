@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Shop - Sehat, Rozgar aur Behtar Bhavishya</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+
+        /* Header / Navbar */
+        header { background: #002b5b; color: white; text-align: center; padding: 25px 15px; }
+        header h1 { font-size: 2.2rem; margin-bottom: 5px; color: #ffd700; }
+        header p { font-size: 1.1rem; opacity: 0.9; }
+
+        /* Main Container */
+        .container { max-width: 900px; margin: 20px auto; padding: 0 15px; }
+
+        /* Banner Section */
+        .hero { background: white; border-radius: 12px; padding: 30px 20px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin-bottom: 25px; }
+        .hero h2 { color: #002b5b; margin-bottom: 15px; font-size: 1.8rem; }
+        .highlight-badge { display: inline-block; background: #eef5ff; color: #0056b3; padding: 8px 15px; border-radius: 20px; font-weight: bold; margin-bottom: 15px; }
+
+        /* Cards Grid */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 25px; }
+        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); border-top: 4px solid #0056b3; }
+        .card h3 { color: #002b5b; margin-bottom: 10px; }
+
+        /* Brands List */
+        .brands { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 25px; }
+        .brands h3 { color: #002b5b; margin-bottom: 15px; text-align: center; }
+        .brand-tags { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+        .tag { background: #f0f4f8; border: 1px solid #d0dbe5; padding: 8px 16px; border-radius: 20px; font-weight: 600; color: #444; }
+
+        /* Trust/Verification Section */
+        .trust-box { background: #e8f4ea; border: 1px solid #c3e6cb; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 25px; color: #155724; }
+
+        /* Floating / Fixed Sticky Action Buttons */
+        .sticky-contact { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); display: flex; gap: 15px; z-index: 1000; width: 90%; max-width: 400px; }
+        .btn { flex: 1; text-align: center; padding: 14px 20px; border-radius: 30px; font-weight: bold; font-size: 1rem; text-decoration: none; color: white; box-shadow: 0 4px 12px rgba(0,0,0,0.2); display: flex; align-items: center; justify-content: center; gap: 8px; }
+        .btn-whatsapp { background-color: #25D366; }
+        .btn-call { background-color: #007bff; }
+
+        footer { text-align: center; padding: 30px 15px 100px 15px; font-size: 0.9rem; color: #666; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SAFE SHOP</h1>
+        <p>Sehat, Fashion, Takniki, Siksha aur Parivaar Suraksha</p>
+    </header>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <span class="highlight-badge">🏆 2001 Se Nirantar Karya-rat (ISO Certified)</span>
+            <h2>Bina Kisi Anubhav Ke Shuru Karein Apna Khud Ka Rozgar</h2>
+            <p>Humari sanstha me aap bina kisi direct selling course ya experience ke <strong>FREE Training</strong> lekar kaam shuru kar sakte hain. Yahan Active Income se zyada <strong>Passive Income</strong> ka mauka milta hai jo aapke sath aane wali <strong>3 Pidhiyon (3 Generations)</strong> tak milti hai!</p>
+        </div>
+
+        <!-- Features Grid -->
+        <div class="grid">
+            <div class="card">
+                <h3>💼 Rozgar aur Team Work</h3>
+                <p>Hum logo ko swarozgar ke avsar dete hain aur ek mazboot team ke sath milkar aage badhne ka mauka dete hain.</p>
+            </div>
+            <div class="card">
+                <h3>🌟 Pramukh Kshetra</h3>
+                <p>Sehat (Health), Fashion, Takniki (Technology), Siksha (Education) aur Parivaar Suraksha ke kshetro me karya.</p>
+            </div>
+            <div class="card">
+                <h3>🎓 Free Training Support</h3>
+                <p>Kary shuru karne ke liye kisi course ya purane anubhav ki zarurat nahi. Humari team aapko puri free training degi.</p>
+            </div>
+        </div>
+
+        <!-- Associated Brands -->
+        <div class="brands">
+            <h3>🤝 30+ Branded Companies ke Sath Sajhedari</h3>
+            <div class="brand-tags">
+                <span class="tag">Raymonds</span>
+                <span class="tag">Grado</span>
+                <span class="tag">Larnya</span>
+                <span class="tag">Lavnya</span>
+                <span class="tag">Mikasa</span>
+                <span class="tag">Reliance</span>
+                <span class="tag">+ Many More Brands</span>
+            </div>
+        </div>
+
+        <!-- Trust & Registration Details -->
+        <div class="trust-box">
+            <h3>📜 100% Legal & Govt Registered</h3>
+            <p><strong>Head Office:</strong> Janakpuri, New Delhi</p>
+            <p>Companies Act 1956 ke tahat Registered | ISO Certified Sanstha</p>
+        </div>
+    </div>
+
+    <!-- Contact Action Buttons (Direct Connect) -->
+    <div class="sticky-contact">
+        <!-- APNA PHONE NUMBER NICHE "91XXXXXXXXXX" KI JAGAH BADLEIN -->
+        <a href="https://wa.me/919999999999?text=Namaste!%20Mujhe%20Safe%20Shop%20ke%20saath%20judne%20aur%20kaam%20karne%20ki%20jankari%20chahiye." class="btn btn-whatsapp" target="_blank">
+            💬 WhatsApp
+        </a>
+        <a href="tel:+919999999999" class="btn btn-call">
+            📞 Call Karein
+        </a>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Safe Shop Business Group. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
